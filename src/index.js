@@ -1,3 +1,6 @@
 import "./styles.css";
+// Js
+// index.js
+import loadHome from "./home.js";
 
-console.log("Test");
+loadHome();
