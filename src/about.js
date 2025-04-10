@@ -15,9 +15,16 @@ function loadAbout() {
   const paragraph = document.createElement("p");
   paragraph.textContent = "Hello World.";
 
+  const footer = document.createElement("p");
+  footer.textContent = "Photo by Ivan Florendo";
+
+  footer.classList.add("footer");
+
   container.appendChild(header);
   container.appendChild(img);
   container.appendChild(paragraph);
+  container.appendChild(footer);
+
   content.appendChild(container);
 }
 

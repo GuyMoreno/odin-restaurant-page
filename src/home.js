@@ -19,9 +19,16 @@ function loadHome() {
   paragraph.textContent =
     "Welcome to a place where every bite tells a story — our restaurant blends fine flavors, cozy atmosphere, and heartfelt hospitality.";
 
+  const footer = document.createElement("p");
+  footer.textContent = "Photo by Pascal Meier";
+
+  footer.classList.add("footer");
+
   container.appendChild(header);
   container.appendChild(img);
   container.appendChild(paragraph);
+  container.appendChild(footer);
+
   content.appendChild(container);
 }
 

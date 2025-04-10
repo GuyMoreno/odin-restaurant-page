@@ -16,9 +16,17 @@ function loadMenu() {
   const paragraph = document.createElement("p");
   paragraph.textContent = "Not just a Ramen.";
 
+  const footer = document.createElement("p");
+  footer.textContent = "Photo by Zoshua Colah";
+
+  footer.classList.add("footer");
+
   container.appendChild(header);
   container.appendChild(img);
   container.appendChild(paragraph);
+  container.appendChild(footer);
+
+
   content.appendChild(container);
 }
 
