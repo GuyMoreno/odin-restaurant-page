@@ -1,4 +1,4 @@
-// import veganRamen from "./veganRamen.jpg";
+import plant from "./plant.jpg";
 
 function loadAbout() {
   const content = document.getElementById("content");
@@ -10,7 +10,7 @@ function loadAbout() {
   header.textContent = "About";
 
   const img = document.createElement("img");
-  img.src = veganRamen;
+  img.src = plant;
 
   const paragraph = document.createElement("p");
   paragraph.textContent = "Hello World.";

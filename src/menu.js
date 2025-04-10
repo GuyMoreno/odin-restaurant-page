@@ -1,3 +1,4 @@
+// ss
 import veganRamen from "./veganRamen.jpg";
 
 function loadMenu() {
